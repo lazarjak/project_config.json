@@ -1,0 +1,4 @@
+# primer Dockerfile-a
+FROM ubuntu:20.04
+RUN apt update && apt install -y curl
+CMD ["bash"]
