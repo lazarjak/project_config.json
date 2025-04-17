@@ -26,11 +26,11 @@ pipeline {
                     // Generisanje artefakata
                     echo "Building core-service..."
                     // Build komanda za Python (ako ima neki specifičan build, npr. setup.py ili sl.)
-                    sh 'python3 setup.py build'
+                    sh 'python3 script.py build'
 
                     echo "Building frontend-bundle..."
                     // Build komanda za frontend (ako je potrebno)
-                    sh 'zip -r frontend-bundle.zip ./frontend-repo'
+                    echo "Artefacts build complete (no real build in this example)."
                 }
             }
         }
