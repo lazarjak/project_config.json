@@ -1,0 +1,32 @@
+{
+ "project":{
+ "name":"MyProject",
+ "version":"1.0.0",
+ "technology":"Python",
+ "mcs":"Microservices",
+ "repos":[
+      {
+        "name":"core-repo",
+        "url": "https://github.com/lazarjak/core-repo.git",
+        "branch": "main"
+      },
+      {
+        "name": "frontend-repo",
+        "url": "https://github.com/lazarjak/frontend-repo.git",
+        "branch": "develop"
+      }
+    ],
+ "artefacts": [
+      {
+        "name": "core-service",
+        "type": "py",
+        "version": "1.0.0"
+      },
+      {
+        "name": "frontend-bundle",
+        "type": "zip",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}
